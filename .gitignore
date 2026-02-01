@@ -1,0 +1,46 @@
+
+# Nextflow internal
+
+.nextflow/
+work/
+.nextflow.log*
+data/
+
+
+
+# Raw & trimmed FASTQ
+
+*.fastq
+*.fastq.gz
+
+
+# FastQC outputs
+
+*_fastqc.html
+*_fastqc.zip
+
+# Alignment outputs
+
+*.sam
+*.bam
+*.bai
+
+
+# Variant calling outputs
+
+*.vcf
+*.vcf.gz
+
+# Reference genome & index
+reference/
+*.fasta
+*.fa
+*.fna
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.fai
+
+
